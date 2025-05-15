@@ -6,6 +6,7 @@ namespace Mirror
 {
     /// <summary>Base class for implementing component-based authentication during the Connect phase</summary>
     [HelpURL("https://mirror-networking.gitbook.io/docs/components/network-authenticators")]
+    [Icon("Packages/com.mirror.package/Editor/Icon/MirrorIcon.png")]
     public abstract class NetworkAuthenticator : MonoBehaviour
     {
         /// <summary>Notify subscribers on the server when a client is authenticated</summary>
